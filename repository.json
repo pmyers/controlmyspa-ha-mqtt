@@ -1,5 +1,13 @@
 {
-  "name": "ControlMySpa MQTT Repository",
-  "url": "https://github.com/mikakoivisto/controlmyspa-ha-mqtt",
-  "maintainer": "Mika Koivisto"
+  "name": "ControlMySpa MQTT Repository (pmyers fork)",
+  "url": "https://github.com/pmyers/controlmyspa-ha-mqtt",
+  "maintainer": "P. Myers",
+  "addons": [
+    {
+      "name": "ControlMySpa HA MQTT (pmyers)",
+      "description": "ControlMySpa Home Assistant AddOn via MQTT (pmyers custom branch)",
+      "url": "https://github.com/pmyers/controlmyspa-ha-mqtt",
+      "target": "fix-set-temprange"
+    }
+  ]
 }
